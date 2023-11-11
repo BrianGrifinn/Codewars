@@ -1,3 +1,3 @@
-function enough(cap, on, wait) {
-  return on + wait > cap ? on + wait - cap : 0;
+function invert(array) {
+   return array.map((number) => number * -1 );
 };
